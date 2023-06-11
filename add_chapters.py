@@ -33,7 +33,7 @@ if __name__ == "__main__":
             if match is not None:
                 h, m, s = (int(match.group(i)) for i in range(1, 4))
                 if m > 59 or s > 59:
-                    continue
+                    sys.exit(f"# Wrong chapter format: '{line[:-1]}'")
                 title = match.group(4)
                 minutes = m + (h * 60)
                 seconds = s + (minutes * 60)
