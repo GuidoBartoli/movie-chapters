@@ -3,13 +3,15 @@ A simple Python script to add chapters to movies based on timestamps read from t
 
 ## Requirements
 - Python 3 intepreter
-- FFMPEG command line installed
+- FFMPEG command line (can be installed with `sudo apt install ffmpeg`)
 
 ## Installation
 Just copy the script into a folder abd run it from terminal (tested on Linux Mint based on Ubuntu 22.04)
 
+(optional: create a Python Virtual Environment to run the script inside it)
+
 ## Usage
-`python add_chapters.py <input> <chapters> <output>`
+`python3 add_chapters.py <input> <chapters> <output>`
 
 - `input`: Input video files in any format accepted by FFMPEG
 - `chapters`: Text file with each line containing the timestamp `hh:mm:ss` format) and the chapter title, like the following example:
