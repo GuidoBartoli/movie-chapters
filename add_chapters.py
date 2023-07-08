@@ -62,6 +62,8 @@ if __name__ == "__main__":
         file.write(text)
 
     print("- Writing updated metadata...")
+    if not args.output.endswith(".mp4"):
+        args.output += ".mp4"
     if os.path.exists(args.output):
         os.remove(args.output)
     if (
