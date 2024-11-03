@@ -9,7 +9,7 @@ A simple Python script to add chapters to movies based on timestamps read from t
 ## Installation
 Just copy the script into a folder abd run it from terminal (tested on Linux Mint based on Ubuntu 22.04)
 
-(optional: create a Python Virtual Environment to run the script inside it)
+(*optional: create a Python Virtual Environment to run the script inside it*)
 
 ## Usage
 `python3 add_chapters.py <input> <chapters> <output>`
