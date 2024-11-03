@@ -2,6 +2,7 @@
 A simple Python script to add chapters to movies based on timestamps read from text file
 
 ## Requirements
+- Tested under Ubuntu 24.04
 - Python 3 intepreter
 - FFMPEG command line (can be installed with `sudo apt install ffmpeg`)
 
